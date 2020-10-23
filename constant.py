@@ -1,4 +1,4 @@
 
-FOLDER_PATH = "C:/Users/black/Desktop/imageconpy\\"
-FOLDER_PATH1 = "C:/Users/black/Desktop/imageconpy"
-DEST_PATH = "C:/Users/black/Desktop/imageconpy/jgpImg"
+FOLDER_PATH = "upload your folder path\\"
+FOLDER_PATH1 = "upload your folder path"
+DEST_PATH = "upload your folder path"
