@@ -34,6 +34,8 @@ def copy():
 '''
 
 '''
+#deleting .webp img
+
 this funtion does not work properly
 def delete():
     for img in os.listdir(FOLDER_PATH):
