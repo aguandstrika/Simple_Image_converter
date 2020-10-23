@@ -16,7 +16,8 @@ def converter():
                 rgb_im =im.convert("RGB")
                 rgb_im.save(file.replace("webp", "jpg"), quality=95)
         #print(img)
-
+'''
+copying function not working yet 
 def copy():
     print("copy def")
     for item in os.listdir(FOLDER_PATH1):
@@ -30,6 +31,16 @@ def copy():
                     print("files ending in jpg")
                     shutil.move(FOLDER_PATH1, file, DEST_PATH)
                 print(file, "i see 2")
+'''
+
+'''
+this funtion does not work properly
+def delete():
+    for img in os.listdir(FOLDER_PATH):
+        if img.endswith(".webp"):
+            os.unlink(FOLDER_PATH + img)
+            print("image deleted")
+'''
 
 #deleting .webp img
 
@@ -66,6 +77,7 @@ if __name__ == "__main__":
             converter()
             copy()  
             time.sleep(4)
+            delete()
             time.sleep(2)
     except KeyboardInterrupt:
         observer.stop()
